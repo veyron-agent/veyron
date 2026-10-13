@@ -1,0 +1,24 @@
+# Environment dosyaları (sırlar repoya girmesin)
+.env
+.env.*
+!.env.example
+
+# Go derleme çıktıları
+/veyron
+/cmd/veyron/veyron
+*.exe
+*.test
+*.out
+
+# Test / coverage çıktıları
+coverage.out
+coverage.html
+
+# Editör / IDE
+.vscode/
+.idea/
+*.swp
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
